@@ -1,0 +1,35 @@
+#home-introduction-container {
+  padding: 30px 10px 10px 40px;
+  display: flex;
+}
+
+#home-introduction-container img {
+  width: 40%;
+  padding-top: 42px;
+  margin-left: 70px;
+  display: flex;
+  justify-content: end;
+}
+
+.home-introduction-info-container {
+  width: 55%;
+  gap: 25px;
+  display: flex;
+  flex-direction: column;
+}
+
+.home-introduction-info-container h1 {
+  width: 70%;
+  font-size: 2rem;
+}
+
+.home-introduction-info-container p {
+  width: 55%;
+  font-size: 1rem;
+}
+
+.home-introduction-info-container button {
+  width: 200px;
+  height: 36px;
+  margin-left: 130px;
+}

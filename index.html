@@ -5,12 +5,20 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Mente Activa</title>
     <link rel="stylesheet" href="/style.css" />
-    <link rel="stylesheet" href="/slider.css" />
+    <link rel="stylesheet" href="/styles/slider.css" />
+    <link rel="stylesheet" href="/styles/header.css" />
+    <link rel="stylesheet" href="/styles/homeSection.css" />
+    <link rel="stylesheet" href="/styles/chatBotSection.css" />
+    <link rel="stylesheet" href="/styles/communitySection.css" />
+    <link rel="stylesheet" href="/styles/multimediaSection.css" />
+    <link rel="stylesheet" href="/styles/pricingSection.css" />
+    <link rel="stylesheet" href="/styles/calendarSection.css" />
+    <link rel="stylesheet" href="/styles/opinionsSection.css" />
   </head>
   <body>
     <main class="main">
       <!-- HOME SECTION -->
-      <section class="home-section">
+      <div id="home-section">
         <!-- HEADER SECION -->
         <header class="home-header">
           <nav class="home-navegation">
@@ -19,54 +27,41 @@
             </div>
 
             <div class="home-navigation-container">
-              <a href="">ChatBot</a>
-              <a href="">Community</a>
-              <a href="">Pricing</a>
-              <a href="">Workshopds & Videos</a>
-              <a href="">Calendar</a>
+              <a href="#chatbot-section">ChatBot</a>
+              <a href="#community-section">Community</a>
+              <a href="#pricing-section">Pricing</a>
+              <a href="#multimedia-section">Workshopds & Videos</a>
+              <a href="#calendar-section">Calendar</a>
             </div>
           </nav>
         </header>
 
-        <div class="">
-          <h1>Find your Support Here: A Guide for Young guys</h1>
+        <section id="home-introduction-container">
+          <div class="home-introduction-info-container">
+            <h1>Find your Support Here: A Guide for Young Guys</h1>
 
-          <p>
-            Struggling with anxiety or depression? You're not alone. We're a
-            community dedicated to providing resources and support for young
-            guys. Discover practical tools, advice, and connections to help you
-            navigate challenges and find your path to well-being.
-          </p>
+            <p>
+              Struggling with anxiety or depression? You're not alone. We're a
+              community dedicated to providing resources and support for young
+              guys. Discover practical tools, advice, and connections to help
+              you navigate challenges and find your path to well-being.
+            </p>
 
-          <p>Start your journey today!!!</p>
-        </div>
+            <p>Start your journey today!!!</p>
 
-        <button>See our options</button>
-      </section>
+            <button>See our options</button>
+          </div>
+          <img
+            src="./public/SectionImages/WelcomeSection.png"
+            alt="welcome image"
+          />
+        </section>
+      </div>
 
       <!-- CHABOT SECTION -->
-      <section>
-        <h1>Find your Support Here: A Guide for Young guys</h1>
-
-        <div>
-          <p>
-            Struggling with anxiety or depression? You're not alone. We're a
-            community dedicated to providing resources and support for young
-            guys. Discover practical tools, advice, and connections to help you
-            navigate challenges and find your path to well-being.
-          </p>
-
-          <p>Start your journey today!!!</p>
-        </div>
-
-        <button>See our options</button>
-      </section>
-
-      <!-- COMMUNITY SECTION -->
-      <section>
-        <h2>Instant answers, always at your disposal!</h2>
-
-        <div>
+      <section id="chatbot-section">
+        <div class="chatbot-introduction-container">
+          <h2>Instant answers, always at your disposal!</h2>
           <p>
             No more waiting on hold or searching for answers online. Our AI
             chatbot is always available to help you, day or night. Simply ask
@@ -74,178 +69,303 @@
             work, or on the go, our chatbot is always accessible through our
             website chat, mobile app.
           </p>
-        </div>
 
-        <button>Start your chat</button>
+          <button>Start your chat</button>
+        </div>
+        <img
+          src="./public/SectionImages/ChabotSection.png"
+          alt="chatbot image"
+        />
       </section>
 
-      <!-- Plans Section -->
-      <section>
-        <h2>Know our our prices for a more personalized experience</h2>
+      <!-- COMMUNITY SECTION -->
+      <section id="community-section">
+        <div class="community-introduction-container">
+          <h2>A community that supports you, always with you</h2>
+          <p>
+            You don't have to go through this journey alone. Join a community of
+            young guys who, like you. Share your experiences, find motivation in
+            the stories of others, and participate in activities and
+            conversations to help you through your challenges. We're here to
+            listen and support you every step of the way.
+          </p>
 
-        <div>
+          <p>Connect and be part of something bigger!!!</p>
+
+          <button>Join the community</button>
+        </div>
+        <img
+          src="./public/SectionImages/CommunitySection.png"
+          alt="community section image"
+        />
+      </section>
+
+      <!-- Pricing Section -->
+      <section id="pricing-section">
+        <div class="pricing-introduction-container">
+          <h2>Know our our prices for a more personalized experience</h2>
           <p>
             Get our plans to have a more premium, personalizable and
             professional experience with psychologists and get new features.
           </p>
+          <button>See our plans</button>
         </div>
-
-        <button>See our plans</button>
+        <img
+          src="./public/SectionImages/PricingSection.png"
+          alt="pricing images section"
+        />
       </section>
 
       <!-- Multimedia Section -->
-      <section>
-        <h2>Workshops & Video</h2>
-
-        <div>
+      <section id="multimedia-section">
+        <div class="multimedia-introduction-container">
+          <h2>Workshops & Video</h2>
           <p>
             Access exclusive content to help you manage anxiety and depression.
             Our interactive videos and live workshops are designed to provide
             you with practical strategies and emotional support in real time.
           </p>
+          <button>Go to the resources</button>
         </div>
-
-        <button>Go to the resources</button>
+        <img
+          src="./public/SectionImages/MultimediaSection.png"
+          alt="multimedia section image"
+        />
       </section>
 
       <!-- Calendar Section -->
-      <section>
-        <h2>Want to know what to expect? Check out our calendar</h2>
-
-        <div>
+      <section id="calendar-section">
+        <div class="calendar-introduction-container">
+          <h2>Want to know what to expect? Check out our calendar</h2>
           <p>
             Let see our calendar, where you can to see our events, exactly the
             time like days, weeks, an other things.
           </p>
+          <button>Go to calendar</button>
         </div>
-
-        <button>Go to calendar</button>
+        <img
+          src="./public/SectionImages/CalendarSection.png"
+          alt="calendar section imagess"
+        />
       </section>
 
       <!-- Opinions Section -->
-      <section>
+      <section id="opinions-section">
         <h2>Opinions of our users</h2>
 
         <div class="slider">
           <div class="slide-track">
             <div class="slide">
-              <img
-                src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/1.png"
-                height="100"
-                width="250"
-                alt=""
-              />
+              <div class="header-opinion">
+                <img src="" alt="" />
+                <h3>Pedro Requena</h3>
+              </div>
+              <div>
+                <p>
+                  Ipsum is simply dummy text of the printing and typesetting
+                  industry. Lorem Ipsum has been the industry's standard dummy
+                  text ever since the 1500s, when an unknown printer took a
+                  galley of type and scrambled it to make a type specimen book.
+                </p>
+              </div>
             </div>
             <div class="slide">
-              <img
-                src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/2.png"
-                height="100"
-                width="250"
-                alt=""
-              />
+              <div class="header-opinion">
+                <img src="" alt="" />
+                <h3>Pedro Requena</h3>
+              </div>
+              <div>
+                <p>
+                  Ipsum is simply dummy text of the printing and typesetting
+                  industry. Lorem Ipsum has been the industry's standard dummy
+                  text ever since the 1500s, when an unknown printer took a
+                  galley of type and scrambled it to make a type specimen book.
+                </p>
+              </div>
             </div>
             <div class="slide">
-              <img
-                src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/3.png"
-                height="100"
-                width="250"
-                alt=""
-              />
+              <div class="header-opinion">
+                <img src="" alt="" />
+                <h3>Pedro Requena</h3>
+              </div>
+              <div>
+                <p>
+                  Ipsum is simply dummy text of the printing and typesetting
+                  industry. Lorem Ipsum has been the industry's standard dummy
+                  text ever since the 1500s, when an unknown printer took a
+                  galley of type and scrambled it to make a type specimen book.
+                </p>
+              </div>
             </div>
             <div class="slide">
-              <img
-                src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/4.png"
-                height="100"
-                width="250"
-                alt=""
-              />
+              <div class="header-opinion">
+                <img src="" alt="" />
+                <h3>Pedro Requena</h3>
+              </div>
+              <div>
+                <p>
+                  Ipsum is simply dummy text of the printing and typesetting
+                  industry. Lorem Ipsum has been the industry's standard dummy
+                  text ever since the 1500s, when an unknown printer took a
+                  galley of type and scrambled it to make a type specimen book.
+                </p>
+              </div>
             </div>
             <div class="slide">
-              <img
-                src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/5.png"
-                height="100"
-                width="250"
-                alt=""
-              />
+              <div class="header-opinion">
+                <img src="" alt="" />
+                <h3>Pedro Requena</h3>
+              </div>
+              <div>
+                <p>
+                  Ipsum is simply dummy text of the printing and typesetting
+                  industry. Lorem Ipsum has been the industry's standard dummy
+                  text ever since the 1500s, when an unknown printer took a
+                  galley of type and scrambled it to make a type specimen book.
+                </p>
+              </div>
             </div>
             <div class="slide">
-              <img
-                src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/6.png"
-                height="100"
-                width="250"
-                alt=""
-              />
+              <div class="header-opinion">
+                <img src="" alt="" />
+                <h3>Pedro Requena</h3>
+              </div>
+              <div>
+                <p>
+                  Ipsum is simply dummy text of the printing and typesetting
+                  industry. Lorem Ipsum has been the industry's standard dummy
+                  text ever since the 1500s, when an unknown printer took a
+                  galley of type and scrambled it to make a type specimen book.
+                </p>
+              </div>
             </div>
             <div class="slide">
-              <img
-                src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/7.png"
-                height="100"
-                width="250"
-                alt=""
-              />
+              <div class="header-opinion">
+                <img src="" alt="" />
+                <h3>Pedro Requena</h3>
+              </div>
+              <div>
+                <p>
+                  Ipsum is simply dummy text of the printing and typesetting
+                  industry. Lorem Ipsum has been the industry's standard dummy
+                  text ever since the 1500s, when an unknown printer took a
+                  galley of type and scrambled it to make a type specimen book.
+                </p>
+              </div>
             </div>
             <div class="slide">
-              <img
-                src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/1.png"
-                height="100"
-                width="250"
-                alt=""
-              />
+              <div class="opinion-container">
+                <div class="opinion-header">
+                  <img src="" alt="" />
+                  <h3>Pedro Requena</h3>
+                </div>
+
+                <p>
+                  Ipsum is simply dummy text of the printing and typesetting
+                  industry. Lorem Ipsum has been the industry's standard dummy
+                  text ever since the 1500s, when an unknown printer took a
+                  galley of type and scrambled it to make a type specimen book.
+                </p>
+              </div>
             </div>
             <div class="slide">
-              <img
-                src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/2.png"
-                height="100"
-                width="250"
-                alt=""
-              />
+              <div class="opinion-container">
+                <div class="opinion-header">
+                  <img src="" alt="" />
+                  <h3>Pedro Requena</h3>
+                </div>
+
+                <p>
+                  Ipsum is simply dummy text of the printing and typesetting
+                  industry. Lorem Ipsum has been the industry's standard dummy
+                  text ever since the 1500s, when an unknown printer took a
+                  galley of type and scrambled it to make a type specimen book.
+                </p>
+              </div>
             </div>
             <div class="slide">
-              <img
-                src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/3.png"
-                height="100"
-                width="250"
-                alt=""
-              />
+              <div class="opinion-container">
+                <div class="opinion-header">
+                  <img src="" alt="" />
+                  <h3>Pedro Requena</h3>
+                </div>
+
+                <p>
+                  Ipsum is simply dummy text of the printing and typesetting
+                  industry. Lorem Ipsum has been the industry's standard dummy
+                  text ever since the 1500s, when an unknown printer took a
+                  galley of type and scrambled it to make a type specimen book.
+                </p>
+              </div>
             </div>
             <div class="slide">
-              <img
-                src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/4.png"
-                height="100"
-                width="250"
-                alt=""
-              />
+              <div class="opinion-container">
+                <div class="opinion-header">
+                  <img src="" alt="" />
+                  <h3>Pedro Requena</h3>
+                </div>
+
+                <p>
+                  Ipsum is simply dummy text of the printing and typesetting
+                  industry. Lorem Ipsum has been the industry's standard dummy
+                  text ever since the 1500s, when an unknown printer took a
+                  galley of type and scrambled it to make a type specimen book.
+                </p>
+              </div>
             </div>
             <div class="slide">
-              <img
-                src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/5.png"
-                height="100"
-                width="250"
-                alt=""
-              />
+              <div class="opinion-container">
+                <div class="opinion-header">
+                  <img src="" alt="" />
+                  <h3>Pedro Requena</h3>
+                </div>
+
+                <p>
+                  Ipsum is simply dummy text of the printing and typesetting
+                  industry. Lorem Ipsum has been the industry's standard dummy
+                  text ever since the 1500s, when an unknown printer took a
+                  galley of type and scrambled it to make a type specimen book.
+                </p>
+              </div>
             </div>
             <div class="slide">
-              <img
-                src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/6.png"
-                height="100"
-                width="250"
-                alt=""
-              />
+              <div class="opinion-container">
+                <div class="opinion-header">
+                  <img src="" alt="" />
+                  <h3>Pedro Requena</h3>
+                </div>
+
+                <p>
+                  Ipsum is simply dummy text of the printing and typesetting
+                  industry. Lorem Ipsum has been the industry's standard dummy
+                  text ever since the 1500s, when an unknown printer took a
+                  galley of type and scrambled it to make a type specimen book.
+                </p>
+              </div>
             </div>
             <div class="slide">
-              <img
-                src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/7.png"
-                height="100"
-                width="250"
-                alt=""
-              />
+              <div class="opinion-container">
+                <div class="opinion-header">
+                  <img src="" alt="" />
+                  <h3>Pedro Requena</h3>
+                </div>
+
+                <p>
+                  Ipsum is simply dummy text of the printing and typesetting
+                  industry. Lorem Ipsum has been the industry's standard dummy
+                  text ever since the 1500s, when an unknown printer took a
+                  galley of type and scrambled it to make a type specimen book.
+                </p>
+              </div>
             </div>
           </div>
         </div>
       </section>
 
       <!-- Footer Section -->
-      <footer>h</footer>
+      <footer id="footer">
+        <img src="./public/logoT.png" alt="Mente Actica Logo" />
+      </footer>
     </main>
 
     <script src="./main.js"></script>

@@ -1,0 +1,45 @@
+#calendar-section {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+.calendar-introduction-container {
+  padding: 50px 10px 10px 40px;
+}
+
+#calendar-section img {
+  width: 40%;
+  padding-top: 42px;
+  margin-right: 70px;
+  display: flex;
+  justify-content: end;
+}
+
+.calendar-introduction-container {
+  width: 55%;
+  gap: 25px;
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+}
+
+.calendar-introduction-container h2 {
+  width: 70%;
+  font-size: 1.8rem;
+  text-align: center;
+}
+
+.calendar-introduction-container p {
+  width: 55%;
+  font-size: 1rem;
+  text-align: end;
+  margin-right: 45px;
+}
+
+.calendar-introduction-container button {
+  width: 200px;
+  height: 36px;
+  margin-right: 130px;
+}
