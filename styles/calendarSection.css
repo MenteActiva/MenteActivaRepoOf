@@ -42,4 +42,7 @@
   width: 200px;
   height: 36px;
   margin-right: 130px;
+  border-radius: 8px;
+  border: none;
+  background-color: #a7f3d0;
 }
